@@ -3,14 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <title>Kepla — Office in a Box</title>
-    <meta name="description" content="Every device pre-configured. Asset tagged. Warranty registered. Delivered ready to plug in — for teams of 1 or 500." />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Kepla — Managed IT Procurement for Canadian Business</title>
+    <meta
+      name="description"
+      content="Hardware and software specified, configured, asset-tagged and documented before it reaches your desks. Itemised quotes within 24 hours. One accountable contact, not a ticket queue."
+    />
+    <link rel="canonical" href="https://kepla.ca/" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kepla" />
+    <meta property="og:title" content="Kepla — Managed IT Procurement for Canadian Business" />
+    <meta
+      property="og:description"
+      content="Hardware and software specified, configured, asset-tagged and documented before it reaches your desks. Itemised quotes within 24 hours."
+    />
+    <meta property="og:url" content="https://kepla.ca/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kepla — Managed IT Procurement for Canadian Business" />
+    <meta
+      name="twitter:description"
+      content="Hardware and software specified, configured, asset-tagged and documented before it reaches your desks."
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Kepla Technologies Ltd.",
+        "description": "Managed IT procurement: hardware and software specified, configured, asset-tagged and documented for Canadian businesses.",
+        "url": "https://kepla.ca/",
+        "email": "hello@kepla.ca",
+        "areaServed": { "@type": "Country", "name": "Canada" },
+        "serviceType": [
+          "IT hardware procurement",
+          "Software licensing",
+          "Device configuration and imaging",
+          "Hardware-as-a-Service",
+          "Network infrastructure"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+
+    <!--
+      Netlify only registers forms it can find in the static HTML at build time.
+      This hidden form declares the field names; the React app posts to it.
+      Do not remove — removing it silently breaks every enquiry on the site.
+    -->
+    <form name="kepla-enquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="source" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="company" />
+      <input type="tel" name="phone" />
+      <input type="text" name="teamSize" />
+      <textarea name="message"></textarea>
+      <textarea name="configuration"></textarea>
+      <input type="text" name="estimate" />
+      <input type="text" name="submittedAt" />
+      <input type="text" name="bot-field" />
+    </form>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
