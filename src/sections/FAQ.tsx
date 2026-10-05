@@ -6,7 +6,7 @@ import { Section, SectionHeading } from '../components/ui'
 const faqs = [
   {
     q: 'What is actually included in the service fee?',
-    a: 'Specification and itemised quoting, Windows 11 Pro imaging to your standard, application installation, BitLocker encryption, Intune or MDM enrolment, security policy application, asset tagging, warranty registration, and the serial-level asset register delivered with your order. Hardware is quoted separately at cost so you can see both figures.',
+    a: 'Specification and itemised quoting, Windows 11 Pro imaging to your standard, application installation, BitLocker encryption, Intune or MDM enrolment, security policy application, asset tagging, warranty registration, and the serial-level asset register delivered with your order. Hardware pricing is transparent and the service fee is shown as a separate line, so you can see both figures.',
   },
   {
     q: 'Do you supply Apple hardware as well as Windows?',

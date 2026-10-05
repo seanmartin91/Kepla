@@ -18,7 +18,7 @@ const services = [
       'Windows 11 Pro imaging to your standard',
       'Asset tagging and serial-level register',
     ],
-    price: 'Quoted at cost plus a transparent service fee',
+    price: 'Transparent hardware pricing, with the service fee as a separate line',
   },
   {
     n: '02',

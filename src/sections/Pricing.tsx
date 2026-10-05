@@ -18,8 +18,8 @@ const tiers: Tier[] = [
   {
     name: 'Essentials',
     range: '1–5 seats',
-    price: 'From $3,200',
-    unit: 'per bundle',
+    price: 'From $2,700',
+    unit: 'per seat',
     blurb: 'A complete, documented setup for a small team or a new office.',
     cta: 'Build a quote',
     included: [
@@ -147,7 +147,7 @@ export default function Pricing({ compact = false }: { compact?: boolean }) {
         <h4 className="text-white font-medium text-sm mb-3">How to read these numbers</h4>
         <ul className="grid gap-2.5 sm:grid-cols-2 text-sm text-white/50">
           <li>All prices are in Canadian dollars and exclude applicable taxes.</li>
-          <li>Hardware is quoted at cost with the service fee shown as a separate line.</li>
+          <li>Hardware is priced transparently, with the service fee shown as a separate line.</li>
           <li>
             Specifications move with the market — the exact model is confirmed on your quote.
           </li>

@@ -10,7 +10,7 @@ export default function PricingPage() {
   useEffect(() => {
     setMeta(
       'Pricing — Kepla Managed IT Procurement',
-      'Transparent, itemised pricing in Canadian dollars. Hardware quoted at cost with the service fee shown separately. Net-30 available for approved accounts.',
+      'Transparent, itemised pricing in Canadian dollars. Transparent hardware pricing, with the service fee shown as a separate line. Net-30 available for approved accounts.',
     )
   }, [])
 
