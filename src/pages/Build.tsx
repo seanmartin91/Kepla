@@ -27,26 +27,26 @@ const laptops: Option[] = [
   {
     id: 'essential',
     label: 'Essential laptop',
-    sub: 'Dell Latitude 3000 / ThinkPad E — i5, 16GB, 512GB',
-    price: 1099,
+    sub: 'Dell Pro 14 (7HG73) — Ryzen 5 Pro 230, 16GB, 512GB SSD, 14" FHD+',
+    price: 2209,
   },
   {
     id: 'professional',
     label: 'Professional laptop',
-    sub: 'Dell Latitude 5000 / ThinkPad T — i7, 16GB, 512GB',
-    price: 1549,
+    sub: 'HP EliteBook 8 G2i 14 (D81W3UT#ABA) — Core Ultra 7 355, 32GB, 512GB SSD, 14" WUXGA',
+    price: 3619,
   },
   {
     id: 'performance',
     label: 'Performance workstation',
-    sub: 'Dell Precision / ThinkPad P — i7, 32GB, 1TB',
-    price: 2199,
+    sub: 'HP ZBook 8 G1i 14 (BX7T2UT#ABA) — Core Ultra 7 255H, 32GB, 1TB SSD, RTX 500 Ada, 14" WUXGA',
+    price: 4289,
   },
   {
     id: 'desktop',
     label: 'Desktop micro PC',
-    sub: 'OptiPlex / ThinkCentre — i5, 16GB, 512GB',
-    price: 949,
+    sub: 'HP ProDesk 4 Mini G1i (BS7M0UT#ABA) — Core Ultra 5 235T, 16GB, 512GB SSD',
+    price: 1949,
   },
 ]
 

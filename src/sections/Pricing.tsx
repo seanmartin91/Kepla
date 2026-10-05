@@ -37,13 +37,13 @@ const tiers: Tier[] = [
   {
     name: 'Professional',
     range: '5–25 seats',
-    price: 'From $2,800',
+    price: 'From $4,574',
     unit: 'per seat',
     blurb: 'The full-stack office build for teams that are actively hiring.',
     featured: true,
     cta: 'Build a quote',
     included: [
-      'Premium laptop per seat (i7 / 32GB class)',
+      'Premium laptop per seat (Core Ultra 7 / 32GB class)',
       '27" QHD monitor and dock',
       'Windows 11 Pro imaging to your standard',
       'Intune / MDM enrolment and policy',
