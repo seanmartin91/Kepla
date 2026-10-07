@@ -11,6 +11,7 @@ import {
 import { Field, inputClass } from '../components/ui'
 import { setMeta } from '../lib/meta'
 import { submitLead } from '../lib/leads'
+import { Crisp } from 'crisp-sdk-web'
 
 /* ------------------------------------------------------------------ */
 /* Catalogue                                                           */
@@ -244,6 +245,16 @@ export default function Build() {
             This gives you an indicative estimate in about two minutes. It is deliberately a
             starting point — the formal quote that follows is itemised by SKU and priced against
             live distribution stock.
+          </p>
+          <p className="mt-3 text-sm text-white/50">
+            Not sure what to pick?{' '}
+            <button
+              type="button"
+              onClick={() => Crisp.chat.open()}
+              className="text-gold hover:text-gold-light underline underline-offset-4"
+            >
+              Chat with us
+            </button>
           </p>
         </div>
 

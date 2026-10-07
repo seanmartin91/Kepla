@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import CrispChat from './components/CrispChat'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import HowItWorks from './pages/HowItWorks'
@@ -25,6 +26,7 @@ export default function App() {
   return (
     <div className="bg-ink min-h-screen text-white font-sans overflow-x-hidden flex flex-col">
       <ScrollToTop />
+      <CrispChat />
       <Navbar />
       <main className="flex-1">
         <Routes>
